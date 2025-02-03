@@ -71,3 +71,19 @@ feedback.push({
 
 // Logging the updated feedback array
 console.log("Updated feedback", feedback);
+
+// Task 5
+// Declare an object inventory with properties
+let inventory = {
+    itemName: "Lipstick",
+    stockCount: 500,
+    price: 20
+};
+
+// Add method calculateTotalValue 
+inventory.calculateTotalValue = function() {
+    return this.stockCount * this.price;
+};
+
+// Logging the total value of the inventory
+console.log("Total value of the inventory", inventory.calculateTotalValue());
