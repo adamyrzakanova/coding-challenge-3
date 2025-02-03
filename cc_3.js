@@ -41,3 +41,33 @@ employee.promotionEligible = true;
 
 // Logging the updated employee object
 console.log("Updated employee information", employee);
+
+// Task 4
+// Declare an array feedback with objects
+let feedback = [
+    {
+        customerName: "Jane",
+        feedbackText: "Great service",
+        rating: 5
+    },
+    {
+        customerName: "John",
+        feedbackText: "Good quality",
+        rating: 4
+    },
+    {
+        customerName: "Alice",
+        feedbackText: "Could be better",
+        rating: 2
+    }
+];  
+
+// Add a new feedback object to the array
+feedback.push({
+    customerName: "Bob",
+    feedbackText: "Excellent job",
+    rating: 5
+});
+
+// Logging the updated feedback array
+console.log("Updated feedback", feedback);
