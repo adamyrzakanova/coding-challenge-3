@@ -23,3 +23,21 @@ let totalOrders = orders.reduce((acc, order) => acc + order, 0);
 
 // Logging the total number of orders
 console.log("Updated total orders", totalOrders);
+
+// Task 3
+// Declare an employee object
+let employee = {
+    name: "John Doe",
+    age: 26,
+    role: "Software Engineer",
+    performanceScore: 8,
+    isActive: true
+};
+// Updating the performance score 
+employee.performanceScore = 9;
+
+// New property promotionEligible w boolean value
+employee.promotionEligible = true;
+
+// Logging the updated employee object
+console.log("Updated employee information", employee);
